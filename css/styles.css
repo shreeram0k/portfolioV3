@@ -683,15 +683,11 @@ a:visited {
     position: absolute;
     top: 15%;
     left: 19%;
-    width: 22px;
-    height: 34px;
 }
 
 @media only screen and (max-width: 600px) {
     .compass {
         top: -4%;
-        left: 10%;
-        width: 18px;
-        height: 30px;
+        left: 4%;
     }
 }
