@@ -393,7 +393,7 @@
     display: flex;
     align-items: center;
 
-    color: #000000;
+    color: #fff;
 
 }
 
@@ -411,7 +411,7 @@
         line-height: 28px;
         display: flex;
         align-items: center;
-        color: #000000;
+        color: #fff;
     }
 
     .nav-message {
