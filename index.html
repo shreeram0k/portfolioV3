@@ -1,0 +1,168 @@
+<!-- https://tympanus.net/Development/ProximityFeedback/index7.html -->
+<!-- https://jsfiddle.net/mohamedyousef1980/4up5a43d/1/ -->
+<!-- http://usatoday.geex-arts.com/fonts/round-line.179dda2a226018742fadf8bacb5ede59.svg? -->
+<!-- https://spatzek.studio/ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="UI design based on NEON ENERGY concept">
+    <meta name="keywords" content="ui,ux,HTML,CSS,JavaScript">
+    <meta name="author" content="Shreeram K">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shreeram K -v3</title>
+
+    <!-- Boootstrap CSS files -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- main CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- animate on scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Oswald:600&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- header display page -->
+    <div class="container" id="top">
+        <div class="line">
+
+        </div>
+        <p class="logo">design & <br>me</p>
+        <div class="information-container">
+            <div class="beacon"></div>
+            <p class="nav-message">how you doin'?</p>
+        </div>
+        <p class="year">/2019</p>
+
+        <!-- main header information -->
+        <p class="greetings">Hello! I'm,</p>
+        <h1 class="title">Shreeram K</h1>
+        <p class="motto margin-auto">amplifying wisdom, simplying design</p>
+
+        <!-- social connection links -->
+        <a href="#" class="social">instagram</a>
+        <a href="#" class="social linkedin">linkedin</a>
+    </div>
+    <div class="container grad-1">
+        <div class="horiz-line"></div>
+        <h2 class="container-heading mt-4" data-aos="fade-up" data-aos-duration="1000">projects</h2>
+
+        <!-- separator line -->
+        <div class="general__separator">
+            <span class="separator">
+                <span class="separator__inner"></span>
+            </span>
+        </div>
+
+        <span _ngcontent-c4="" class="shout__comments__item__message">Hi</span>
+        <a id="leftgear" _ngcontent-c1="" class="shout__button" href="javascript:void(0)"
+            style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <span _ngcontent-c1="" class="shout__button__icon" id="leftgear">
+                <!-- compass svg -->
+                <svg class="compass" width="22" height="34" viewBox="0 0 22 34" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d)">
+                        <path d="M11 0L17.0622 12.75H4.93782L11 0Z" fill="#1E1E1E" />
+                        <path d="M11 25.5L4.93782 12.75L17.0622 12.75L11 25.5Z" fill="#1E1E1E" />
+                    </g>
+                    <defs>
+                        <filter id="filter0_d" x="0.937744" y="0" width="20.1244" height="33.5"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                            <feOffset dy="4" />
+                            <feGaussianBlur stdDeviation="2" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                        </filter>
+                    </defs>
+                </svg>
+
+            </span>
+        </a>
+
+        <!-- button for go top -->
+        <a id="myBtn" class="header__to-top header__to-top_visible" href="#top"
+            style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+        </a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 600, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- aos https://michalsnik.github.io/aos/-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        $(window).scroll(function () {
+            var theta = $(window).scrollTop() / 10 % Math.PI;
+            $('#leftgear').css({
+                transform: 'rotate(' + theta + 'rad)'
+            });
+        });
+    </script>
+</body>
+
+</html>
